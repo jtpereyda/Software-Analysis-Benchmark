@@ -12,6 +12,7 @@ Makefile
 04.wo_Defects_Cpp/Makefile
 03.w_Defects_Cpp/Makefile
 ])
+AC_SEARCH_LIBS([pow], [m])
 
 # Checks for programs.
 AC_PROG_CXX
