@@ -22,6 +22,12 @@
 *.x86_64
 *.hex
 
+# Linux Executables
+01.w_Defects/01_w_Defects
+02.wo_Defects/02_wo_Defects
+03.w_Defects_Cpp/03_w_Defects_Cpp
+04.wo_Defects_Cpp/04_wo_Defects_Cpp
+
 Makefile.in
 Makefile
 config.h
@@ -37,3 +43,9 @@ config.status
 /missing
 /stamp-h1
 .deps
+
+# Python
+*.egg-info
+__pycache__
+*.pyc
+.cache
