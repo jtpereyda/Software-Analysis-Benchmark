@@ -32,11 +32,11 @@ def find_expected_errors_in_file(filename):
 
 def scan_for_expected_errors(file_contents):
     expected = get_expected_errors_from_file(file_contents)
-    type = scan_for_type(file_contents)
-    subtype = scan_for_subtype(file_contents)
+    defect_type = scan_for_type(file_contents)
+    defect_subtype = scan_for_subtype(file_contents)
     for e in expected:
-        e['type'] = type
-        e['subtype'] = subtype
+        e['type'] = defect_type
+        e['subtype'] = defect_subtype
     return expected
 
 
@@ -79,7 +79,3 @@ def get_file_contents(filename):
 
 def compare(expected_errors, found_errors):
     pass
-
-
-if __name__ == "__main__":
-    main()
