@@ -1,5 +1,8 @@
+import argparse
+import fnmatch
+import os
 import re
-import pprint
+import itertools
 
 DEFECT_TYPE_REGEX = re.compile(r"\*\ Defect\ Type:\s*(.*)", flags=re.VERBOSE)
 DEFECT_SUBTYPE_REGEX = re.compile(r"\*\ Defect\ Sub-type:\s*(.*)", flags=re.VERBOSE)
@@ -15,19 +18,77 @@ class SourceFileWithoutSubtypeHeaderError(Exception):
 
 
 def main(argv):
-    pprint.pprint(expected_errors())
-    # compare(expected_errors, found_errors)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("testbench_dir", help="file or directory to search for expected errors")
+    arguments = parser.parse_args(args=argv[1:])
+
+    e = expected_errors(arguments.testbench_dir)
+    defect_types = set()
+    for error in e:
+        defect_types.add(error["type"])
+    for defect_type in defect_types:
+        print("{0} -- {1}".format(defect_type, sum(error["type"] == defect_type for error in e)))
+    print(len(e))
 
 
-def expected_errors():
-    return find_expected_errors_in_file('01.w_Defects/bit_shift.c')
+def expected_errors(filename):
+    return parse_file_or_directory(filename)
+
+
+def parse_file_or_directory(filename):
+    """
+    Parse expected errors from filename.
+
+    Args:
+        filename: File or directory to parse.
+
+    Returns: Data structure with expected errors.
+    """
+    if os.path.isdir(filename):
+        return parse_directory(filename)
+    else:
+        return find_expected_errors_in_file(filename)
+
+
+def parse_directory(dirname):
+    """
+    Parse expected errors from files within dirname.
+
+    Recursive by default.
+
+    Args:
+        dirname: Directory to search.
+
+    Returns: Data structure with expected errors.
+    """
+    results = []
+    for root, dirnames, filenames in os.walk(dirname):
+        for filename in itertools.chain(fnmatch.filter(filenames, '*.c'), fnmatch.filter(filenames, '*.cpp')):
+            results += find_expected_errors_in_file(os.path.join(root, filename))
+    return results
 
 
 def find_expected_errors_in_file(filename):
-    expected = scan_for_expected_errors(get_file_contents(filename))
-    for e in expected:
-        e['file'] = filename
+    expected = []
+    try:
+        expected = scan_for_expected_errors(get_file_contents(filename))
+        for e in expected:
+            e['file'] = filename
+    except (SourceFileWithoutSubtypeHeaderError, SourceFileWithoutTypeHeaderError):
+        warn("Ignoring improperly formatted file {0}".format(filename))
     return expected
+
+
+def warn(message):
+    """
+    Present warning to user.
+
+    Args:
+        message: Warning message
+
+    Returns: None
+    """
+    print(message)
 
 
 def scan_for_expected_errors(file_contents):
@@ -73,9 +134,5 @@ def line_is_expected_error(line_contents):
 
 
 def get_file_contents(filename):
-    with open(filename) as f:
+    with open(filename, encoding='utf-8', errors='ignore') as f:
         return f.read()
-
-
-def compare(expected_errors, found_errors):
-    pass
