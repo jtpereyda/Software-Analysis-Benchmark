@@ -15,8 +15,8 @@ setup_dir = os.path.abspath(os.path.dirname(__file__))
 NAME = 'getresults'
 DESCRIPTION = 'Parse expected Toyota Benchmark analysis results and compare.'
 VERSION_FILE_PATH = ['getresults', '__init__.py']
-EXCLUDE_PACKAGES = ['test']
-INSTALL_REQUIRES = []
+EXCLUDE_PACKAGES = []
+INSTALL_REQUIRES = ['tabulate']
 EXTRAS_REQUIRE = {
     # This list is duplicated in tox.ini. Make sure to change both!
     # This can stop once tox supports installing package extras.

@@ -11,7 +11,10 @@ SAMPLE_LINE_NONERROR = "    ret = a << 10;/*Tool should  Not detect this line as
 SAMPLE_LINE_NONERROR_WITH_SPACE = \
     "    ret = a << 10;/*Tool should  Not detect this line as error*/ /* NO ERROR:Bit shift error*/\n"
 
-sample_contents = """
+SAMPLE_LINE_NONERROR_LOWERCASE_O = \
+    "    free(ptr); /*Tool should Not detect this line as error*/ /*No ERROR:Double free*/\n"
+
+sample_contents =    """
 /********Software Analysis - FY2013*************/
 /*
 * File Name: bit_shift.c
@@ -87,6 +90,9 @@ class TestLineIsExpectedNonError:
 
     def test_nonerror_with_space(self):
         assert line_is_expected_nonerror(SAMPLE_LINE_NONERROR_WITH_SPACE) == True
+
+    def test_nonerror_lowecase_o(self):
+        assert line_is_expected_nonerror(SAMPLE_LINE_NONERROR_LOWERCASE_O) == True
 
     def test_no_nonerror(self):
         assert line_is_expected_nonerror(SAMPLE_LINE_ERROR) == False
