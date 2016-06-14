@@ -1,0 +1,8 @@
+language: python
+
+install:
+  - pip install tox
+
+before_script: cd getresults
+
+script: tox
