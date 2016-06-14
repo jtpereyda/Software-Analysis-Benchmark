@@ -2,7 +2,7 @@ import fnmatch
 import itertools
 import os
 
-from .constants import DEFECT_TYPE_REGEX, DEFECT_SUBTYPE_REGEX, ERROR_MARKER_REGEX
+from .constants import DEFECT_TYPE_REGEX, DEFECT_SUBTYPE_REGEX, ERROR_MARKER_REGEX, NONERROR_MARKER_REGEX
 from .error_handling import warn
 from .exceptions import SourceFileWithoutTypeHeaderError, SourceFileWithoutSubtypeHeaderError
 from .benchmark import Benchmark
@@ -18,7 +18,7 @@ def parse_benchmarks(filename):
     Returns:
         Benchmark: Expected results from benchmark file(s).
     """
-    return Benchmark(parse_file_or_directory(filename), None)
+    return parse_file_or_directory(filename)
 
 
 def parse_file_or_directory(filename):
@@ -47,7 +47,7 @@ def parse_directory(dirname):
 
     Returns: Data structure with expected errors.
     """
-    results = []
+    results = Benchmark()
     for root, dirnames, filenames in os.walk(dirname):
         for filename in itertools.chain(fnmatch.filter(filenames, '*.c'), fnmatch.filter(filenames, '*.cpp')):
             results += find_expected_errors_in_file(os.path.join(root, filename))
@@ -55,33 +55,37 @@ def parse_directory(dirname):
 
 
 def find_expected_errors_in_file(filename):
-    expected = []
+    errors = []
+    nonerrors = []
     try:
-        expected = scan_for_expected_errors(get_file_contents(filename))
-        for e in expected:
-            e['file'] = filename
+        errors, nonerrors = scan_for_expected_errors(get_file_contents(filename))
+        for item in itertools.chain(errors, nonerrors):
+            item['file'] = filename
     except (SourceFileWithoutSubtypeHeaderError, SourceFileWithoutTypeHeaderError):
         warn("Ignoring improperly formatted file {0}".format(filename))
-    return expected
+    return Benchmark(errors, nonerrors)
 
 
 def scan_for_expected_errors(file_contents):
-    expected = get_expected_errors_from_file(file_contents)
+    errors, nonerrors = get_expected_errors_and_nonerrors_from_file(file_contents)
     defect_type = scan_for_type(file_contents)
     defect_subtype = scan_for_subtype(file_contents)
-    for e in expected:
-        e['type'] = defect_type
-        e['subtype'] = defect_subtype
-    return expected
+    for item in itertools.chain(errors, nonerrors):
+        item['type'] = defect_type
+        item['subtype'] = defect_subtype
+    return errors, nonerrors
 
 
-def get_expected_errors_from_file(file_contents):
+def get_expected_errors_and_nonerrors_from_file(file_contents):
     lines = file_contents.splitlines()
-    expected = []
+    errors = []
+    nonerrors = []
     for line_number, line in enumerate(lines, start=1):
         if line_is_expected_error(line):
-            expected.append({'line': line_number})
-    return expected
+            errors.append({'line': line_number})
+        if line_is_expected_nonerror(line):
+            nonerrors.append({'line': line_number})
+    return errors, nonerrors
 
 
 def scan_for_type(file_contents):
@@ -102,6 +106,13 @@ def scan_for_subtype(file_contents):
 
 def line_is_expected_error(line_contents):
     if ERROR_MARKER_REGEX.search(line_contents):
+        return True
+    else:
+        return False
+
+
+def line_is_expected_nonerror(line_contents):
+    if NONERROR_MARKER_REGEX.search(line_contents):
         return True
     else:
         return False

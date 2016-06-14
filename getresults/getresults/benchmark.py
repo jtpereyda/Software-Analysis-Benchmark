@@ -1,6 +1,11 @@
 class Benchmark:
     """Describes errors and nonerrors for a benchmark"""
-    def __init__(self, errors, nonerrors):
+    def __init__(self, errors=None, nonerrors=None):
+        if errors is None:
+            errors = []
+        if nonerrors is None:
+            nonerrors = []
+
         self._errors = errors
         self._nonerrors = nonerrors
 
@@ -23,3 +28,10 @@ class Benchmark:
             Data structure of expected non-errors.
         """
         return self._nonerrors
+
+    def __add__(self, other):
+        if isinstance(other, self.__class__):
+            return Benchmark(errors=self.errors + other.errors,
+                             nonerrors=self.nonerrors + other.nonerrors)
+        else:
+            raise TypeError("unsupported operand type(s) for +: '{}' and '{}'".format(self.__class__, type(other)))
