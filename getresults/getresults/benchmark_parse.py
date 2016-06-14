@@ -1,38 +1,24 @@
-import argparse
 import fnmatch
-import os
-import re
 import itertools
+import os
 
-DEFECT_TYPE_REGEX = re.compile(r"\*\ Defect\ Type:\s*(.*)", flags=re.VERBOSE)
-DEFECT_SUBTYPE_REGEX = re.compile(r"\*\ Defect\ Sub-type:\s*(.*)", flags=re.VERBOSE)
-ERROR_MARKER_REGEX = re.compile(r"/\*\s*ERROR:.*\*/")
-
-
-class SourceFileWithoutTypeHeaderError(Exception):
-    pass
+from .constants import DEFECT_TYPE_REGEX, DEFECT_SUBTYPE_REGEX, ERROR_MARKER_REGEX
+from .error_handling import warn
+from .exceptions import SourceFileWithoutTypeHeaderError, SourceFileWithoutSubtypeHeaderError
+from .benchmark import Benchmark
 
 
-class SourceFileWithoutSubtypeHeaderError(Exception):
-    pass
+def parse_benchmarks(filename):
+    """
+    Parse a file or directory for expected benchmark errors and non-errors.
 
+    Args:
+        filename: File or directory to search. Directories are recursively searched.
 
-def main(argv):
-    parser = argparse.ArgumentParser()
-    parser.add_argument("testbench_dir", help="file or directory to search for expected errors")
-    arguments = parser.parse_args(args=argv[1:])
-
-    e = expected_errors(arguments.testbench_dir)
-    defect_types = set()
-    for error in e:
-        defect_types.add(error["type"])
-    for defect_type in defect_types:
-        print("{0} -- {1}".format(defect_type, sum(error["type"] == defect_type for error in e)))
-    print(len(e))
-
-
-def expected_errors(filename):
-    return parse_file_or_directory(filename)
+    Returns:
+        Benchmark: Expected results from benchmark file(s).
+    """
+    return Benchmark(parse_file_or_directory(filename), None)
 
 
 def parse_file_or_directory(filename):
@@ -77,18 +63,6 @@ def find_expected_errors_in_file(filename):
     except (SourceFileWithoutSubtypeHeaderError, SourceFileWithoutTypeHeaderError):
         warn("Ignoring improperly formatted file {0}".format(filename))
     return expected
-
-
-def warn(message):
-    """
-    Present warning to user.
-
-    Args:
-        message: Warning message
-
-    Returns: None
-    """
-    print(message)
 
 
 def scan_for_expected_errors(file_contents):

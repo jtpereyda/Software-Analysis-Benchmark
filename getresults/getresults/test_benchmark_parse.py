@@ -1,9 +1,7 @@
 import pytest
-from .get_results import scan_for_type
-from .get_results import scan_for_subtype
-from .get_results import SourceFileWithoutTypeHeaderError
-from .get_results import SourceFileWithoutSubtypeHeaderError
-from .get_results import line_is_expected_error
+from .benchmark_parse import scan_for_type, scan_for_subtype, line_is_expected_error
+from .exceptions import SourceFileWithoutTypeHeaderError, SourceFileWithoutSubtypeHeaderError
+
 
 sample_contents = """
 /********Software Analysis - FY2013*************/
