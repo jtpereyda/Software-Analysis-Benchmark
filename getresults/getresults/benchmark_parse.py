@@ -2,10 +2,11 @@ import fnmatch
 import itertools
 import os
 
+from .utils import get_file_contents
+from .benchmark import Benchmark
 from .constants import DEFECT_TYPE_REGEX, DEFECT_SUBTYPE_REGEX, ERROR_MARKER_REGEX, NONERROR_MARKER_REGEX
 from .error_handling import warn
 from .exceptions import SourceFileWithoutTypeHeaderError, SourceFileWithoutSubtypeHeaderError
-from .benchmark import Benchmark
 
 
 def parse_benchmarks(filename):
@@ -116,8 +117,3 @@ def line_is_expected_nonerror(line_contents):
         return True
     else:
         return False
-
-
-def get_file_contents(filename):
-    with open(filename, encoding='utf-8', errors='ignore') as f:
-        return f.read()

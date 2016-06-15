@@ -1,0 +1,3013 @@
+{
+    "components": [
+        {
+            "enabled": true,
+            "id": 8011,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/null_pointer.c",
+            "longName": "02.wo_Defects/null_pointer.c",
+            "name": "null_pointer.c",
+            "path": "02.wo_Defects/null_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KVD"
+        },
+        {
+            "enabled": true,
+            "id": 7996,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "longName": "02.wo_Defects/free_null_pointer.c",
+            "name": "free_null_pointer.c",
+            "path": "02.wo_Defects/free_null_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KU0"
+        },
+        {
+            "enabled": true,
+            "id": 7931,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/data_lost.c",
+            "longName": "01.w_Defects/data_lost.c",
+            "name": "data_lost.c",
+            "path": "01.w_Defects/data_lost.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxVrVv3nmw44KTz"
+        },
+        {
+            "enabled": true,
+            "id": 7997,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "longName": "02.wo_Defects/func_pointer.c",
+            "name": "func_pointer.c",
+            "path": "02.wo_Defects/func_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KU1"
+        },
+        {
+            "enabled": true,
+            "id": 8000,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/insign_code.c",
+            "longName": "02.wo_Defects/insign_code.c",
+            "name": "insign_code.c",
+            "path": "02.wo_Defects/insign_code.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KU4"
+        },
+        {
+            "enabled": true,
+            "id": 8030,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/wrong_arguments_func_pointer.c",
+            "longName": "02.wo_Defects/wrong_arguments_func_pointer.c",
+            "name": "wrong_arguments_func_pointer.c",
+            "path": "02.wo_Defects/wrong_arguments_func_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxZrVv3nmw44KVW"
+        },
+        {
+            "enabled": true,
+            "id": 7957,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/null_pointer.c",
+            "longName": "01.w_Defects/null_pointer.c",
+            "name": "null_pointer.c",
+            "path": "01.w_Defects/null_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxWrVv3nmw44KUN"
+        },
+        {
+            "enabled": true,
+            "id": 7985,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/data_lost.c",
+            "longName": "02.wo_Defects/data_lost.c",
+            "name": "data_lost.c",
+            "path": "02.wo_Defects/data_lost.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxXrVv3nmw44KUp"
+        },
+        {
+            "enabled": true,
+            "id": 7932,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/data_overflow.c",
+            "longName": "01.w_Defects/data_overflow.c",
+            "name": "data_overflow.c",
+            "path": "01.w_Defects/data_overflow.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxVrVv3nmw44KT0"
+        },
+        {
+            "enabled": true,
+            "id": 7986,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/data_overflow.c",
+            "longName": "02.wo_Defects/data_overflow.c",
+            "name": "data_overflow.c",
+            "path": "02.wo_Defects/data_overflow.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxXrVv3nmw44KUq"
+        },
+        {
+            "enabled": true,
+            "id": 8001,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_extern.c",
+            "longName": "02.wo_Defects/invalid_extern.c",
+            "name": "invalid_extern.c",
+            "path": "02.wo_Defects/invalid_extern.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KU5"
+        },
+        {
+            "enabled": true,
+            "id": 8026,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/uninit_pointer.c",
+            "longName": "02.wo_Defects/uninit_pointer.c",
+            "name": "uninit_pointer.c",
+            "path": "02.wo_Defects/uninit_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxZrVv3nmw44KVS"
+        },
+        {
+            "enabled": true,
+            "id": 8003,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "longName": "02.wo_Defects/invalid_memory_access.c",
+            "name": "invalid_memory_access.c",
+            "path": "02.wo_Defects/invalid_memory_access.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KU7"
+        },
+        {
+            "enabled": true,
+            "id": 7995,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "longName": "02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "name": "free_nondynamically_allocated_memory.c",
+            "path": "02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KUz"
+        },
+        {
+            "enabled": true,
+            "id": 7994,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/endless_loop.c",
+            "longName": "02.wo_Defects/endless_loop.c",
+            "name": "endless_loop.c",
+            "path": "02.wo_Defects/endless_loop.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxYrVv3nmw44KUy"
+        },
+        {
+            "enabled": true,
+            "id": 7916,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "longName": "C++ :: Toyota Static Analysis Benchmark",
+            "name": "C++ :: Toyota Static Analysis Benchmark",
+            "qualifier": "TRK",
+            "uuid": "AVU8kLo3rRAjH6q9KZC5"
+        },
+        {
+            "enabled": true,
+            "id": 7973,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_pointer.c",
+            "longName": "01.w_Defects/uninit_pointer.c",
+            "name": "uninit_pointer.c",
+            "path": "01.w_Defects/uninit_pointer.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxXrVv3nmw44KUd"
+        },
+        {
+            "enabled": true,
+            "id": 7974,
+            "key": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_var.c",
+            "longName": "01.w_Defects/uninit_var.c",
+            "name": "uninit_var.c",
+            "path": "01.w_Defects/uninit_var.c",
+            "projectId": 7916,
+            "qualifier": "FIL",
+            "subProjectId": 7916,
+            "uuid": "AVU8kpxXrVv3nmw44KUe"
+        }
+    ],
+    "issues": [
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/data_lost.c",
+            "componentId": 7931,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp3PrVv3nmw44KWQ",
+            "message": "Move all #include directives at the very top of the file, before any code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:PPIncludeNotAtTop",
+            "severity": "MAJOR",
+            "status": "CLOSED",
+            "tags": [
+                "confusing",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 12,
+                "endOffset": 23,
+                "startLine": 12,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/data_overflow.c",
+            "componentId": 7932,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp3UrVv3nmw44KWV",
+            "message": "Move all #include directives at the very top of the file, before any code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:PPIncludeNotAtTop",
+            "severity": "MAJOR",
+            "status": "CLOSED",
+            "tags": [
+                "confusing",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 13,
+                "endOffset": 23,
+                "startLine": 13,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/null_pointer.c",
+            "componentId": 7957,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp6grVv3nmw44Kdy",
+            "message": "Move all #include directives at the very top of the file, before any code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:PPIncludeNotAtTop",
+            "severity": "MAJOR",
+            "status": "CLOSED",
+            "tags": [
+                "confusing",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 13,
+                "endOffset": 23,
+                "startLine": 13,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_pointer.c",
+            "componentId": 7973,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp8BrVv3nmw44KhC",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 119,
+                "endOffset": 25,
+                "startLine": 119,
+                "startOffset": 19
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_pointer.c",
+            "componentId": 7973,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp8BrVv3nmw44KhD",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 121,
+                "endOffset": 18,
+                "startLine": 121,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_pointer.c",
+            "componentId": 7973,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp8BrVv3nmw44KhE",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 122,
+                "endOffset": 18,
+                "startLine": 122,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_pointer.c",
+            "componentId": 7973,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp8CrVv3nmw44KhF",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 123,
+                "endOffset": 18,
+                "startLine": 123,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_var.c",
+            "componentId": 7974,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp8NrVv3nmw44Khn",
+            "line": 91,
+            "message": "Remove this useless assignment to local variable \"a\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 91,
+                "endOffset": 20,
+                "startLine": 91,
+                "startOffset": 19
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:01.w_Defects/uninit_var.c",
+            "componentId": 7974,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp8NrVv3nmw44Kho",
+            "line": 91,
+            "message": "Remove this useless assignment to local variable \"flag\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 91,
+                "endOffset": 31,
+                "startLine": 91,
+                "startOffset": 30
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/data_lost.c",
+            "componentId": 7985,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp9arVv3nmw44Kko",
+            "message": "Move all #include directives at the very top of the file, before any code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:PPIncludeNotAtTop",
+            "severity": "MAJOR",
+            "status": "CLOSED",
+            "tags": [
+                "confusing",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 15,
+                "endOffset": 23,
+                "startLine": 15,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/data_overflow.c",
+            "componentId": 7986,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp9frVv3nmw44Kkt",
+            "message": "Move all #include directives at the very top of the file, before any code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:PPIncludeNotAtTop",
+            "severity": "MAJOR",
+            "status": "CLOSED",
+            "tags": [
+                "confusing",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 14,
+                "endOffset": 23,
+                "startLine": 14,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/null_pointer.c",
+            "componentId": 8011,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqAHrVv3nmw44Kra",
+            "message": "Move all #include directives at the very top of the file, before any code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:PPIncludeNotAtTop",
+            "severity": "MAJOR",
+            "status": "CLOSED",
+            "tags": [
+                "confusing",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 13,
+                "endOffset": 23,
+                "startLine": 13,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/wrong_arguments_func_pointer.c",
+            "componentId": 8030,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqB_rVv3nmw44KvI",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 214,
+                "endOffset": 21,
+                "startLine": 214,
+                "startOffset": 15
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/uninit_pointer.c",
+            "componentId": 8026,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqBhrVv3nmw44Kts",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 126,
+                "endOffset": 25,
+                "startLine": 126,
+                "startOffset": 19
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/uninit_pointer.c",
+            "componentId": 8026,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqBhrVv3nmw44Ktt",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 127,
+                "endOffset": 18,
+                "startLine": 127,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/uninit_pointer.c",
+            "componentId": 8026,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqBhrVv3nmw44Ktu",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 128,
+                "endOffset": 18,
+                "startLine": 128,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/uninit_pointer.c",
+            "componentId": 8026,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqBhrVv3nmw44Ktv",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 129,
+                "endOffset": 18,
+                "startLine": 129,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/uninit_pointer.c",
+            "componentId": 8026,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqBirVv3nmw44Ktw",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 130,
+                "endOffset": 18,
+                "startLine": 130,
+                "startOffset": 12
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "closeDate": "2016-06-15T13:25:47-0700",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/wrong_arguments_func_pointer.c",
+            "componentId": 8030,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kqCArVv3nmw44KvJ",
+            "message": "Make the prototype of this function visible at this point.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "resolution": "FIXED",
+            "rule": "c:S819",
+            "severity": "CRITICAL",
+            "status": "CLOSED",
+            "tags": [
+                "cert",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 216,
+                "endOffset": 21,
+                "startLine": 216,
+                "startOffset": 15
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-15T13:25:47-0700"
+        },
+        {
+            "author": "dwightguth@runtimeverification.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "componentId": 8003,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "1h40min",
+            "effort": "1h40min",
+            "flows": [],
+            "key": "AVU8kp--rVv3nmw44KoD",
+            "message": "9 duplicated blocks of code must be removed.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "common-c:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "pitfall"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/insign_code.c",
+            "componentId": 8000,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-1rVv3nmw44KoA",
+            "line": 19,
+            "message": "Replace all tab characters in this file by sequences of white-spaces.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:TabCharacter",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "convention"
+            ],
+            "textRange": {
+                "endLine": 19,
+                "endOffset": 7,
+                "startLine": 19,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "dwightguth@runtimeverification.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_extern.c",
+            "componentId": 8001,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-4rVv3nmw44KoB",
+            "message": "1 duplicated blocks of code must be removed.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "common-c:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "pitfall"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_extern.c",
+            "componentId": 8001,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-4rVv3nmw44KoC",
+            "line": 35,
+            "message": "Replace all tab characters in this file by sequences of white-spaces.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:TabCharacter",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "convention"
+            ],
+            "textRange": {
+                "endLine": 35,
+                "endOffset": 35,
+                "startLine": 35,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/endless_loop.c",
+            "componentId": 7994,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-CrVv3nmw44KlX",
+            "message": "1 duplicated blocks of code must be removed.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "common-c:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "pitfall"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/endless_loop.c",
+            "componentId": 7994,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-CrVv3nmw44KlY",
+            "line": 46,
+            "message": "Do not update the loop counter \"i\" within the loop body.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S127",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 46,
+                "endOffset": 3,
+                "startLine": 46,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/endless_loop.c",
+            "componentId": 7994,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-CrVv3nmw44KlZ",
+            "line": 15,
+            "message": "Replace all tab characters in this file by sequences of white-spaces.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:TabCharacter",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "convention"
+            ],
+            "textRange": {
+                "endLine": 15,
+                "endOffset": 62,
+                "startLine": 15,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "30min",
+            "effort": "30min",
+            "flows": [],
+            "key": "AVU8kp-GrVv3nmw44Kla",
+            "message": "2 duplicated blocks of code must be removed.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "common-c:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "pitfall"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-GrVv3nmw44Klb",
+            "line": 32,
+            "message": "Remove this empty statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1116",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 32,
+                "endOffset": 16,
+                "startLine": 32,
+                "startOffset": 15
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-GrVv3nmw44Klc",
+            "line": 74,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 74,
+                "endOffset": 11,
+                "startLine": 74,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-GrVv3nmw44Kld",
+            "line": 125,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 125,
+                "endOffset": 13,
+                "startLine": 125,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-GrVv3nmw44Kle",
+            "line": 138,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 138,
+                "endOffset": 13,
+                "startLine": 138,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-HrVv3nmw44Klf",
+            "line": 182,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 182,
+                "endOffset": 13,
+                "startLine": 182,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "23min",
+            "effort": "23min",
+            "flows": [],
+            "key": "AVU8kp-HrVv3nmw44Klg",
+            "line": 276,
+            "message": "Function has a complexity of 33 which is greater than 20 authorized.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:FunctionComplexity",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "brain-overload"
+            ],
+            "textRange": {
+                "endLine": 276,
+                "endOffset": 45,
+                "startLine": 276,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-HrVv3nmw44Klh",
+            "line": 155,
+            "message": "Remove this block of commented out code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:CommentedCode",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 155,
+                "endOffset": 113,
+                "startLine": 155,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "1min",
+            "effort": "1min",
+            "flows": [],
+            "key": "AVU8kp-HrVv3nmw44Kli",
+            "line": 32,
+            "message": "At most one statement is allowed per line, but 2 statements were found on this line.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:OneStatementPerLine",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "convention"
+            ],
+            "textRange": {
+                "endLine": 32,
+                "endOffset": 16,
+                "startLine": 32,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_nondynamically_allocated_memory.c",
+            "componentId": 7995,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-HrVv3nmw44Klj",
+            "line": 20,
+            "message": "Replace all tab characters in this file by sequences of white-spaces.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:TabCharacter",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "convention"
+            ],
+            "textRange": {
+                "endLine": 20,
+                "endOffset": 15,
+                "startLine": 20,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "1h50min",
+            "effort": "1h50min",
+            "flows": [],
+            "key": "AVU8kp-LrVv3nmw44Klk",
+            "message": "10 duplicated blocks of code must be removed.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "common-c:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "pitfall"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-MrVv3nmw44Kll",
+            "line": 27,
+            "message": "Remove this useless assignment to local variable \"buf\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 27,
+                "endOffset": 10,
+                "startLine": 27,
+                "startOffset": 9
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-MrVv3nmw44Klm",
+            "line": 67,
+            "message": "Remove this useless assignment to local variable \"buf\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 67,
+                "endOffset": 11,
+                "startLine": 67,
+                "startOffset": 10
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-MrVv3nmw44Kln",
+            "line": 79,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 79,
+                "endOffset": 13,
+                "startLine": 79,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-MrVv3nmw44Klo",
+            "line": 145,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 145,
+                "endOffset": 14,
+                "startLine": 145,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-MrVv3nmw44Klp",
+            "line": 181,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 181,
+                "endOffset": 9,
+                "startLine": 181,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-MrVv3nmw44Klq",
+            "line": 202,
+            "message": "Remove the code after this \"goto\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1763",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 202,
+                "endOffset": 11,
+                "startLine": 202,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-NrVv3nmw44Klr",
+            "line": 200,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 200,
+                "endOffset": 16,
+                "startLine": 200,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-NrVv3nmw44Kls",
+            "line": 202,
+            "message": "Remove this goto statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:GotoUsage",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "brain-overload",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 202,
+                "endOffset": 11,
+                "startLine": 202,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-NrVv3nmw44Klt",
+            "line": 250,
+            "message": "Remove this useless assignment to local variable \"str1\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 250,
+                "endOffset": 7,
+                "startLine": 250,
+                "startOffset": 6
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-NrVv3nmw44Klu",
+            "line": 264,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 264,
+                "endOffset": 5,
+                "startLine": 264,
+                "startOffset": 4
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-NrVv3nmw44Klv",
+            "line": 307,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 307,
+                "endOffset": 5,
+                "startLine": 307,
+                "startOffset": 4
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-NrVv3nmw44Klw",
+            "line": 355,
+            "message": "Remove use of 'union'.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:Union",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 355,
+                "endOffset": 13,
+                "startLine": 355,
+                "startOffset": 8
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-OrVv3nmw44Kl0",
+            "line": 402,
+            "message": "Either merge this case with the identical one on line \"396\" or change one of the implementations.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1871",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [],
+            "textRange": {
+                "endLine": 406,
+                "endOffset": 3,
+                "startLine": 402,
+                "startOffset": 2
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-OrVv3nmw44Kl1",
+            "line": 408,
+            "message": "Either merge this case with the identical one on line \"402\" or change one of the implementations.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1871",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [],
+            "textRange": {
+                "endLine": 412,
+                "endOffset": 3,
+                "startLine": 408,
+                "startOffset": 2
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-OrVv3nmw44Kl2",
+            "line": 396,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 396,
+                "endOffset": 3,
+                "startLine": 396,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-OrVv3nmw44Klx",
+            "line": 368,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 368,
+                "endOffset": 3,
+                "startLine": 368,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-OrVv3nmw44Kly",
+            "line": 374,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 374,
+                "endOffset": 3,
+                "startLine": 374,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-OrVv3nmw44Klz",
+            "line": 380,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 380,
+                "endOffset": 3,
+                "startLine": 380,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-PrVv3nmw44Kl3",
+            "line": 402,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 402,
+                "endOffset": 3,
+                "startLine": 402,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-PrVv3nmw44Kl4",
+            "line": 408,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 408,
+                "endOffset": 3,
+                "startLine": 408,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-PrVv3nmw44Kl5",
+            "line": 424,
+            "message": "Remove this useless assignment to local variable \"p\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 424,
+                "endOffset": 4,
+                "startLine": 424,
+                "startOffset": 3
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-PrVv3nmw44Kl6",
+            "line": 465,
+            "message": "Remove this useless assignment to local variable \"ptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 465,
+                "endOffset": 14,
+                "startLine": 465,
+                "startOffset": 13
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-PrVv3nmw44Kl7",
+            "line": 457,
+            "message": "Remove this useless assignment to local variable \"a\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 457,
+                "endOffset": 8,
+                "startLine": 457,
+                "startOffset": 7
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-PrVv3nmw44Kl8",
+            "line": 451,
+            "message": "Remove this useless assignment to local variable \"a\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 451,
+                "endOffset": 41,
+                "startLine": 451,
+                "startOffset": 40
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44Kl-",
+            "line": 448,
+            "message": "Identical sub-expressions on both sides of operator \"==\"",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1764",
+            "severity": "CRITICAL",
+            "status": "OPEN",
+            "tags": [
+                "cert"
+            ],
+            "textRange": {
+                "endLine": 448,
+                "endOffset": 60,
+                "startLine": 448,
+                "startOffset": 53
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44Kl9",
+            "line": 445,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 445,
+                "endOffset": 22,
+                "startLine": 445,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44Kl_",
+            "line": 456,
+            "message": "Merge this if statement with the enclosing one.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1066",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "clumsy"
+            ],
+            "textRange": {
+                "endLine": 456,
+                "endOffset": 7,
+                "startLine": 456,
+                "startOffset": 5
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44KmA",
+            "line": 454,
+            "message": "Identical sub-expressions on both sides of operator \"==\"",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1764",
+            "severity": "CRITICAL",
+            "status": "OPEN",
+            "tags": [
+                "cert"
+            ],
+            "textRange": {
+                "endLine": 454,
+                "endOffset": 60,
+                "startLine": 454,
+                "startOffset": 53
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44KmB",
+            "line": 462,
+            "message": "Merge this if statement with the enclosing one.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1066",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "clumsy"
+            ],
+            "textRange": {
+                "endLine": 462,
+                "endOffset": 7,
+                "startLine": 462,
+                "startOffset": 5
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44KmC",
+            "line": 460,
+            "message": "Identical sub-expressions on both sides of operator \"==\"",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1764",
+            "severity": "CRITICAL",
+            "status": "OPEN",
+            "tags": [
+                "cert"
+            ],
+            "textRange": {
+                "endLine": 460,
+                "endOffset": 60,
+                "startLine": 460,
+                "startOffset": 53
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-QrVv3nmw44KmD",
+            "line": 496,
+            "message": "Remove this useless assignment to local variable \"fptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 496,
+                "endOffset": 14,
+                "startLine": 496,
+                "startOffset": 13
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-RrVv3nmw44KmE",
+            "line": 479,
+            "message": "Remove this useless assignment to local variable \"fptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 479,
+                "endOffset": 7,
+                "startLine": 479,
+                "startOffset": 6
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "19min",
+            "effort": "19min",
+            "flows": [],
+            "key": "AVU8kp-RrVv3nmw44KmF",
+            "line": 569,
+            "message": "Function has a complexity of 29 which is greater than 20 authorized.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:FunctionComplexity",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "brain-overload"
+            ],
+            "textRange": {
+                "endLine": 569,
+                "endOffset": 30,
+                "startLine": 569,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-RrVv3nmw44KmG",
+            "line": 202,
+            "message": "Remove this \"goto\" statement or make it conditional",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1751",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 202,
+                "endOffset": 11,
+                "startLine": 202,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-RrVv3nmw44KmH",
+            "line": 272,
+            "message": "Remove this \"break\" statement or make it conditional",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1751",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 272,
+                "endOffset": 12,
+                "startLine": 272,
+                "startOffset": 6
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-RrVv3nmw44KmI",
+            "line": 294,
+            "message": "Remove this \"break\" statement or make it conditional",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1751",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 294,
+                "endOffset": 11,
+                "startLine": 294,
+                "startOffset": 5
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-RrVv3nmw44KmJ",
+            "line": 315,
+            "message": "Remove this \"break\" statement or make it conditional",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1751",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 315,
+                "endOffset": 12,
+                "startLine": 315,
+                "startOffset": 6
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-SrVv3nmw44KmK",
+            "line": 339,
+            "message": "Remove this \"break\" statement or make it conditional",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1751",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 339,
+                "endOffset": 11,
+                "startLine": 339,
+                "startOffset": 5
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-SrVv3nmw44KmL",
+            "line": 353,
+            "message": "Remove this block of commented out code.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:CommentedCode",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "misra",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 353,
+                "endOffset": 109,
+                "startLine": 353,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-SrVv3nmw44KmM",
+            "line": 25,
+            "message": "Remove the use of this insecure 'strcpy' function.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1081",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "sans-top25-risky"
+            ],
+            "textRange": {
+                "endLine": 25,
+                "endOffset": 12,
+                "startLine": 25,
+                "startOffset": 11
+            },
+            "type": "VULNERABILITY",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-SrVv3nmw44KmN",
+            "line": 118,
+            "message": "Remove the use of this insecure 'strcpy' function.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1081",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "sans-top25-risky"
+            ],
+            "textRange": {
+                "endLine": 118,
+                "endOffset": 8,
+                "startLine": 118,
+                "startOffset": 7
+            },
+            "type": "VULNERABILITY",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-SrVv3nmw44KmO",
+            "line": 155,
+            "message": "Remove the use of this insecure 'strcpy' function.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1081",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "sans-top25-risky"
+            ],
+            "textRange": {
+                "endLine": 155,
+                "endOffset": 12,
+                "startLine": 155,
+                "startOffset": 11
+            },
+            "type": "VULNERABILITY",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-SrVv3nmw44KmP",
+            "line": 248,
+            "message": "Remove the use of this insecure 'strcpy' function.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1081",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "sans-top25-risky"
+            ],
+            "textRange": {
+                "endLine": 248,
+                "endOffset": 8,
+                "startLine": 248,
+                "startOffset": 7
+            },
+            "type": "VULNERABILITY",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-TrVv3nmw44KmQ",
+            "line": 283,
+            "message": "Remove the use of this insecure 'strcpy' function.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1081",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "sans-top25-risky"
+            ],
+            "textRange": {
+                "endLine": 283,
+                "endOffset": 13,
+                "startLine": 283,
+                "startOffset": 12
+            },
+            "type": "VULNERABILITY",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "20min",
+            "effort": "20min",
+            "flows": [],
+            "key": "AVU8kp-TrVv3nmw44KmR",
+            "line": 324,
+            "message": "Remove the use of this insecure 'strcpy' function.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1081",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "sans-top25-risky"
+            ],
+            "textRange": {
+                "endLine": 324,
+                "endOffset": 11,
+                "startLine": 324,
+                "startOffset": 10
+            },
+            "type": "VULNERABILITY",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-TrVv3nmw44KmS",
+            "line": 450,
+            "message": "The assignment operation must be done outside of this expression.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:AssignmentInSubExpression",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 450,
+                "endOffset": 70,
+                "startLine": 450,
+                "startOffset": 66
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-TrVv3nmw44KmT",
+            "line": 450,
+            "message": "The assignment operation must be done outside of this expression.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:AssignmentInSubExpression",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 450,
+                "endOffset": 60,
+                "startLine": 450,
+                "startOffset": 20
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-TrVv3nmw44KmU",
+            "line": 451,
+            "message": "The assignment operation must be done outside of this expression.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:AssignmentInSubExpression",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 451,
+                "endOffset": 44,
+                "startLine": 451,
+                "startOffset": 39
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-TrVv3nmw44KmV",
+            "line": 451,
+            "message": "The assignment operation must be done outside of this expression.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:AssignmentInSubExpression",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cwe",
+                "misra"
+            ],
+            "textRange": {
+                "endLine": 451,
+                "endOffset": 36,
+                "startLine": 451,
+                "startOffset": 23
+            },
+            "type": "BUG",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "regehr@cs.utah.edu",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "1h21min",
+            "effort": "1h21min",
+            "flows": [],
+            "key": "AVU8kp-UrVv3nmw44KmW",
+            "message": "File has a complexity of 131 which is greater than 80 authorized.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:FileComplexity",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "brain-overload"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/free_null_pointer.c",
+            "componentId": 7996,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "2min",
+            "effort": "2min",
+            "flows": [],
+            "key": "AVU8kp-UrVv3nmw44KmX",
+            "line": 22,
+            "message": "Replace all tab characters in this file by sequences of white-spaces.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:TabCharacter",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "convention"
+            ],
+            "textRange": {
+                "endLine": 22,
+                "endOffset": 44,
+                "startLine": 22,
+                "startOffset": 0
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "dwightguth@runtimeverification.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "30min",
+            "effort": "30min",
+            "flows": [],
+            "key": "AVU8kp-ZrVv3nmw44KmY",
+            "message": "2 duplicated blocks of code must be removed.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "common-c:DuplicatedBlocks",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "pitfall"
+            ],
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "10min",
+            "effort": "10min",
+            "flows": [],
+            "key": "AVU8kp-ZrVv3nmw44KmZ",
+            "line": 128,
+            "message": "Extract this nested code block into a separate method.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1199",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "bad-practice"
+            ],
+            "textRange": {
+                "endLine": 128,
+                "endOffset": 9,
+                "startLine": 128,
+                "startOffset": 8
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-ZrVv3nmw44Kma",
+            "line": 155,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 155,
+                "endOffset": 9,
+                "startLine": 155,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "componentId": 8003,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-_rVv3nmw44KoE",
+            "line": 46,
+            "message": "Remove this useless assignment to local variable \"ptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 46,
+                "endOffset": 14,
+                "startLine": 46,
+                "startOffset": 13
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "componentId": 8003,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-_rVv3nmw44KoF",
+            "line": 37,
+            "message": "Remove this useless assignment to local variable \"a\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 37,
+                "endOffset": 38,
+                "startLine": 37,
+                "startOffset": 37
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "componentId": 8003,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-_rVv3nmw44KoG",
+            "line": 30,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 30,
+                "endOffset": 13,
+                "startLine": 30,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "componentId": 8003,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-_rVv3nmw44KoH",
+            "line": 86,
+            "message": "Remove this useless assignment to local variable \"dptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 86,
+                "endOffset": 11,
+                "startLine": 86,
+                "startOffset": 10
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/invalid_memory_access.c",
+            "componentId": 8003,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-_rVv3nmw44KoI",
+            "line": 81,
+            "message": "Remove this useless assignment to local variable \"ptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 81,
+                "endOffset": 10,
+                "startLine": 81,
+                "startOffset": 9
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "15min",
+            "effort": "15min",
+            "flows": [],
+            "key": "AVU8kp-arVv3nmw44Kmb",
+            "line": 192,
+            "message": "Remove this useless assignment to local variable \"doubleptr\".",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:S1854",
+            "severity": "MAJOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "cwe",
+                "suspicious",
+                "unused"
+            ],
+            "textRange": {
+                "endLine": 192,
+                "endOffset": 19,
+                "startLine": 192,
+                "startOffset": 18
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-arVv3nmw44Kmc",
+            "line": 174,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 174,
+                "endOffset": 17,
+                "startLine": 174,
+                "startOffset": 2
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-arVv3nmw44Kmd",
+            "line": 215,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 215,
+                "endOffset": 9,
+                "startLine": 215,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        },
+        {
+            "author": "sshiraishi@us.toyota-itc.com",
+            "component": "org.sonarqube:seceng-toyota-software-analysis-benchmarks:02.wo_Defects/func_pointer.c",
+            "componentId": 7997,
+            "creationDate": "2016-06-10T16:07:41-0700",
+            "debt": "5min",
+            "effort": "5min",
+            "flows": [],
+            "key": "AVU8kp-arVv3nmw44Kme",
+            "line": 234,
+            "message": "Define each identifier in a dedicated statement.",
+            "project": "org.sonarqube:seceng-toyota-software-analysis-benchmarks",
+            "rule": "c:SingleDeclarationPerStatement",
+            "severity": "MINOR",
+            "status": "OPEN",
+            "tags": [
+                "cert",
+                "misra",
+                "pitfall"
+            ],
+            "textRange": {
+                "endLine": 234,
+                "endOffset": 9,
+                "startLine": 234,
+                "startOffset": 1
+            },
+            "type": "CODE_SMELL",
+            "updateDate": "2016-06-10T16:07:41-0700"
+        }
+    ],
+    "p": 1,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 1802
+    },
+    "ps": 100,
+    "total": 1802
+}
