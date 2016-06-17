@@ -9,7 +9,7 @@ def get_sonarqube_data(url):
     page_size = data['ps']
     total = data['total']
     total_pages = math.ceil(total/page_size)
-    for i in range(2, total_pages):
+    for i in range(2, total_pages+1):
         data.update(json.loads(requests.get(url=url, data={'p': i}).text))
 
 
