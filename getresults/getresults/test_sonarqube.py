@@ -1,3 +1,5 @@
+import copy
+
 from . import sonarqube
 import pkg_resources
 import json
@@ -27,7 +29,7 @@ class TestFormatSonarqubeData:
 @mock.patch('getresults.sonarqube.requests')
 class TestGetSonarQubeData:
     def setup_method(self, _):
-        self.json_one_page = get_sample_file_contents()
+        self.sonarqube_sample = json.loads(get_sample_file_contents())
 
     def test_requests_1_page(self, mock_requests):
         """
@@ -35,11 +37,14 @@ class TestGetSonarQubeData:
         When Call get_sonar_qube_data with a valid URL
         Then requests.get is called until the page number reaches the expected end.
         """
+        json_one_page = copy.deepcopy(self.sonarqube_sample)
+        json_one_page['ps'] = 100
+        json_one_page['total'] = 100
         mock_requests.configure_mock(
                 **{'get.return_value': mock.MagicMock(
-                        **{'text': self.json_one_page})})
+                        **{'text': json.dumps(json_one_page)})})
         sonarqube.get_sonarqube_data('url')
-        mock_requests.get.assert_called_once_with('url')
+        mock_requests.get.assert_called_once_with(url='url')
 
     # def test_requests_1_page_plus_1(self, mock_requests):
     #     """
