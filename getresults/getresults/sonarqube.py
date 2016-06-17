@@ -1,3 +1,17 @@
+import json
+
+import math
+import requests
+
+
+def get_sonarqube_data(url):
+    data = json.loads(requests.get(url=url).text)
+    page_size = data['ps']
+    total = data['total']
+    total_pages = math.ceil(total/page_size)
+    for i in range(2, total_pages):
+        data.update(json.loads(requests.get(url=url, data={'p': i}).text))
+
 
 def format_sonarqube_data(json_object):
     components_by_key = {component['key']: component for component in json_object['components']}
