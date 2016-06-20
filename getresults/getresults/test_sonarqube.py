@@ -27,7 +27,7 @@ class TestFormatSonarqubeData:
 
 
 @mock.patch('getresults.sonarqube.requests')
-class TestGetSonarQubeData:
+class TestQuerySonarQubeData:
     def setup_method(self, _):
         self.sonarqube_sample = json.loads(get_sample_file_contents())
 
@@ -158,3 +158,19 @@ class TestGetSonarQubeData:
         assert results[1] == json_page_two
         assert results[2] == json_page_three
         assert len(results) == 3
+
+
+@mock.patch('getresults.sonarqube.query_sonarqube_data')
+@mock.patch('getresults.sonarqube.format_sonarqube_data')
+class TestGetSonarQubeData:
+    def test_get(self, mock_format, mock_query):
+        """
+        Given Mock query and format methods
+        When Calling get_sonarqube_data
+        Then Method passes results from query into format method
+         and Method returns merged data from format method's results
+        """
+        object_to_data = {"a": [1, 2, 3], "b": [4, 5, 6], "c": [7, 8, 9]}
+        mock_query.return_value = iter(sorted(object_to_data.keys()))
+        mock_format.side_effect = lambda json_object: object_to_data[json_object]
+        assert sonarqube.get_sonarqube_data('url') == sum(sorted(object_to_data.values()), [])
