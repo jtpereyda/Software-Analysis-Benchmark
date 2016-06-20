@@ -43,7 +43,7 @@ class TestGetSonarQubeData:
         mock_requests.configure_mock(
             **{'get.return_value': mock.MagicMock(
                 **{'text': json.dumps(json_page)})})
-        sonarqube.query_sonarqube_data('url')
+        list(sonarqube.query_sonarqube_data('url'))
         mock_requests.get.assert_called_once_with(url='url')
 
     def test_requests_1_item(self, mock_requests):
@@ -58,7 +58,7 @@ class TestGetSonarQubeData:
         mock_requests.configure_mock(
             **{'get.return_value': mock.MagicMock(
                 **{'text': json.dumps(json_page)})})
-        sonarqube.query_sonarqube_data('url')
+        list(sonarqube.query_sonarqube_data('url'))
         mock_requests.get.assert_called_once_with(url='url')
 
     def test_requests_1_page_plus_1(self, mock_requests):
@@ -73,7 +73,7 @@ class TestGetSonarQubeData:
         mock_requests.configure_mock(
             **{'get.return_value': mock.MagicMock(
                 **{'text': json.dumps(json_page)})})
-        sonarqube.query_sonarqube_data('url')
+        list(sonarqube.query_sonarqube_data('url'))
         mock_requests.get.assert_has_calls([mock.call(url='url'),
                                             mock.call(url='url', data={'p': 2})])
 
@@ -90,7 +90,7 @@ class TestGetSonarQubeData:
         mock_requests.configure_mock(
             **{'get.return_value': mock.MagicMock(
                 **{'text': json.dumps(json_page)})})
-        sonarqube.query_sonarqube_data('url')
+        list(sonarqube.query_sonarqube_data('url'))
         mock_requests.get.assert_has_calls([mock.call(url='url'),
                                             mock.call(url='url', data={'p': 2})])
 
@@ -107,7 +107,7 @@ class TestGetSonarQubeData:
         mock_requests.configure_mock(
             **{'get.return_value': mock.MagicMock(
                 **{'text': json.dumps(json_page)})})
-        sonarqube.query_sonarqube_data('url')
+        list(sonarqube.query_sonarqube_data('url'))
         mock_requests.get.assert_has_calls([mock.call(url='url'),
                                             mock.call(url='url', data={'p': 2}),
                                             mock.call(url='url', data={'p': 3})])
@@ -125,16 +125,16 @@ class TestGetSonarQubeData:
         mock_requests.configure_mock(
             **{'get.return_value': mock.MagicMock(
                 **{'text': json.dumps(json_page)})})
-        sonarqube.query_sonarqube_data('url')
+        list(sonarqube.query_sonarqube_data('url'))
         mock_requests.get.assert_has_calls(
             [mock.call(url='url')] + [mock.call(url='url', data={'p': i}) for i in range(2, 11)])
 
-    def test_data_merging(self, mock_requests):
+    def test_return(self, mock_requests):
         """
         Given Mock requests configured to return a data set with page info indicating three full pages, then return
             the second and third data sets
         When Call query_sonarqube_data with a valid URL
-        Then Method returns the merged data sets.
+        Then Method returns an iterator containing the three expected data sets
         """
         json_page = copy.deepcopy(self.sonarqube_sample)
         json_page['ps'] = 100
@@ -151,9 +151,10 @@ class TestGetSonarQubeData:
             **{'get.side_effect': [
                 mock.MagicMock(**{'text': json.dumps(json_page)}),
                 mock.MagicMock(**{'text': json.dumps(json_page_two)}),
-                mock.MagicMock(**{'text': json.dumps(json_page_three)})]
-            }
+                mock.MagicMock(**{'text': json.dumps(json_page_three)})]}
         )
-        sonarqube.query_sonarqube_data('url')
-        mock_requests.get.assert_has_calls(
-            [mock.call(url='url')] + [mock.call(url='url', data={'p': i}) for i in range(2, 11)])
+        results = list(sonarqube.query_sonarqube_data('url'))
+        assert results[0] == json_page
+        assert results[1] == json_page_two
+        assert results[2] == json_page_three
+        assert len(results) == 3
