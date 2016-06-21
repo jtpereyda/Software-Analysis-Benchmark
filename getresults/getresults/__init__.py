@@ -1,9 +1,10 @@
 import argparse
 
-import itertools
 import tabulate
 
 from . import benchmark_parse
+from . import sonarqube
+from . import compare
 __version__ = "0.0.1.dev1"
 
 
@@ -13,9 +14,10 @@ def main(argv):
     arguments = parser.parse_args(args=argv[1:])
 
     expected = benchmark_parse.parse_benchmarks(arguments.testbench_dir)
-    defect_types = set()
-    for error in itertools.chain(expected.errors, expected.nonerrors):
-        defect_types.add(error["type"])
+    comparison = compare.Compare(expected, None)
+    import pprint
+    pprint.pprint(expected.errors)
+    pprint.pprint(expected.nonerrors)
 
     print(
         tabulate.tabulate(
@@ -23,7 +25,12 @@ def main(argv):
                 defect_type,
                 sum(error["type"] == defect_type for error in expected.errors),
                 sum(nonerror["type"] == defect_type for nonerror in expected.nonerrors)
-            ) for defect_type in defect_types))
+            ) for defect_type in comparison.defect_types))
 
     print(len(expected.errors))
     print(len(expected.nonerrors))
+
+    qube_results = sonarqube.get_sonarqube_data(
+        "http://sonarqube.ad.selinc.com/api/issues/search?projectKeys=org.sonarqube:seceng-toyota-software-analysis-benchmarks")
+    import pprint
+    pprint.pprint(qube_results)
