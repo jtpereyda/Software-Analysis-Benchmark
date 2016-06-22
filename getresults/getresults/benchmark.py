@@ -1,3 +1,6 @@
+from typing import Dict, List, Any
+
+
 class Benchmark:
     """Describes errors and nonerrors for a benchmark"""
     def __init__(self, errors=None, nonerrors=None):
@@ -10,7 +13,7 @@ class Benchmark:
         self._nonerrors = nonerrors
 
     @property
-    def errors(self):
+    def errors(self) -> List[Dict[str, Any]]:
         """Expected errors
 
         Returns:
@@ -19,7 +22,7 @@ class Benchmark:
         return self._errors
 
     @property
-    def nonerrors(self):
+    def nonerrors(self) -> List[Dict[str, Any]]:
         """Expected non-errors.
 
         Used to identify false positives.
