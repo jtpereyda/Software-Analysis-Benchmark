@@ -1,4 +1,5 @@
 import copy
+import unittest
 
 from . import sonarqube
 import pkg_resources
@@ -12,7 +13,7 @@ def get_sample_file_contents():
     return pkg_resources.resource_string(resource_package, 'sample_sonarqube.json').decode('utf-8')
 
 
-class TestFormatSonarqubeData:
+class TestFormatSonarqubeData(unittest.TestCase):
     def setup_method(self, _):
         self.results = sonarqube.format_sonarqube_data(json.loads(get_sample_file_contents()))
 
@@ -27,7 +28,7 @@ class TestFormatSonarqubeData:
 
 
 @mock.patch('getresults.sonarqube.requests')
-class TestQuerySonarQubeData:
+class TestQuerySonarQubeData(unittest.TestCase):
     def setup_method(self, _):
         self.sonarqube_sample = json.loads(get_sample_file_contents())
 
@@ -162,7 +163,7 @@ class TestQuerySonarQubeData:
 
 @mock.patch('getresults.sonarqube.query_sonarqube_data')
 @mock.patch('getresults.sonarqube.format_sonarqube_data')
-class TestGetSonarQubeData:
+class TestGetSonarQubeData(unittest.TestCase):
     def test_get(self, mock_format, mock_query):
         """
         Given Mock query and format methods

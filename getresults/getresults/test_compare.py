@@ -1,3 +1,4 @@
+import unittest
 from . import compare
 from . import benchmark
 
@@ -71,7 +72,7 @@ def _benchmark_object_factory():
     return benchmark.Benchmark(sample_errors, sample_nonerrors)
 
 
-class TestDefectTypes:
+class TestDefectTypes(unittest.TestCase):
     def setup_method(self, _):
         self._sample = _benchmark_object_factory()
 
@@ -85,7 +86,7 @@ class TestDefectTypes:
         assert c.defect_types == {'A', 'B', 'C', 'X', 'Y', 'Z'}
 
 
-class TestFoundIssues:
+class TestFoundIssues(unittest.TestCase):
     def setup_method(self, _):
         self._sample = _benchmark_object_factory()
 
