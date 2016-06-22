@@ -67,9 +67,13 @@ found_issues = [
 ]
 
 
+def _benchmark_object_factory():
+    return benchmark.Benchmark(sample_errors, sample_nonerrors)
+
+
 class TestDefectTypes:
     def setup_method(self, _):
-        self._sample = benchmark.Benchmark(sample_errors, sample_nonerrors)
+        self._sample = _benchmark_object_factory()
 
     def test_result(self):
         """
@@ -83,7 +87,7 @@ class TestDefectTypes:
 
 class TestFoundIssues:
     def setup_method(self, _):
-        self._sample = benchmark.Benchmark(sample_errors, sample_nonerrors)
+        self._sample = _benchmark_object_factory()
 
     def test_results(self):
         """
