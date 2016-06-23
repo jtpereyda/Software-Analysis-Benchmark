@@ -18,7 +18,7 @@ class Compare:
         self._expected_benchmark = expected_benchmark
         self._actual_results = actual_results
 
-    @property
+    @cached_property
     def defect_types(self) -> List[str]:
         """
         Return list of finding types in the expected_benchmark.
@@ -65,7 +65,7 @@ class Compare:
         _, r_immediate_dir = os.path.split(r_dir)
         return l_file == r_file and l_immediate_dir == r_immediate_dir
 
-    @property
+    @cached_property
     def results_by_category(self) -> Dict[str, Dict[str, Any]]:
         """
         Return result stats by finding type.

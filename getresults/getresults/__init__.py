@@ -25,12 +25,16 @@ def main(argv):
 
     print(
         tabulate.tabulate(
-            (
+            ((
                 defect_type,
                 sum(error["type"] == defect_type for error in expected.errors),
-                # comparison.results_by_category[defect_type],
+                comparison.results_by_category[defect_type]['found'],
+                comparison.results_by_category[defect_type]['detection_rate'],
                 sum(nonerror["type"] == defect_type for nonerror in expected.nonerrors)
-            ) for defect_type in comparison.defect_types))
+            ) for defect_type in comparison.defect_types),
+            headers=('Defect Type', 'Defect Variations', 'SonarQube', 'SonarQube DR', 'No-Defect Variations')
+        )
+    )
 
     print(len(expected.errors))
     print(len(expected.nonerrors))
