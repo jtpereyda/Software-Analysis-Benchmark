@@ -1,8 +1,10 @@
+import functools
 import itertools
 import os
 
 from .benchmark import Benchmark
 from typing import List, Dict, Any
+from cached_property import cached_property
 
 
 class Compare:
@@ -28,7 +30,7 @@ class Compare:
             defect_types.add(error["type"])
         return defect_types
 
-    @property
+    @cached_property
     def issues_found(self) -> List[Dict[str, Any]]:
         """
         Return list of expected issues actually found in actual_results.
@@ -43,9 +45,13 @@ class Compare:
                     break
         return issues_found
 
+    @functools.lru_cache(maxsize=10000)
     def _match_filenames(self, l, r) -> bool:
         """
         Loose match on two filenames. Matches only the file and its immediate parent directory.
+
+        Note: This implementation uses os.path.split, which is somewhat slow when called many times. Caching is used
+        to help mitigate this slowness.
 
         Args:
             l: filename

@@ -35,6 +35,6 @@ def main(argv):
     print(len(expected.errors))
     print(len(expected.nonerrors))
 
-    import pprint
-    pprint.pprint(expected.errors)
-    pprint.pprint(qube_results)
+    # import pprint
+    # pprint.pprint(expected.errors)
+    # pprint.pprint(qube_results)
