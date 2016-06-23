@@ -1,4 +1,6 @@
 import itertools
+import os
+
 from .benchmark import Benchmark
 from typing import List, Dict, Any
 
@@ -36,9 +38,25 @@ class Compare:
         issues_found = []
         for expected_issue in self._expected_benchmark.errors:
             for actual_issue in self._actual_results:
-                if actual_issue["file"] == expected_issue["file"] and actual_issue["line"] == expected_issue["line"]:
+                if self._match_filenames(actual_issue["file"], expected_issue["file"]) and actual_issue["line"] == expected_issue["line"]:
                     issues_found.append(expected_issue)
         return issues_found
+
+    def _match_filenames(self, l, r) -> bool:
+        """
+        Loose match on two filenames. Matches only the file and its immediate parent directory.
+
+        Args:
+            l: filename
+            r: filename
+
+        Returns: True if the filenames appear to match, False otherwise.
+        """
+        l_dir, l_file = os.path.split(l)
+        _, l_immediate_dir = os.path.split(l_dir)
+        r_dir, r_file = os.path.split(r)
+        _, r_immediate_dir = os.path.split(r_dir)
+        return l_file == r_file and l_immediate_dir == r_immediate_dir
 
     @property
     def results_by_category(self) -> Dict[str, Dict[str, Any]]:

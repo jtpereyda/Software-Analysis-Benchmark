@@ -23,6 +23,10 @@ sample_errors = [
      'line': 1,
      'subtype': '1',
      'type': 'C'},
+    {'file': 'three/dir/levels',
+     'line': 1,
+     'subtype': '1',
+     'type': 'C'},
     {'file': 'flast',
      'line': 999,
      'subtype': '1',
@@ -58,12 +62,14 @@ sample_results = [
     {'file': 'g1', 'line': 1},  # found non-issue (false positive)
     {'file': 'f2', 'line': 2},  # found issue not in data set
     {'file': 'f3', 'line': 3},  # found issue not in data set
+    {'file': 'dir/levels', 'line': 1},  # found issue with filename matching only two path levels
     {'file': 'flast', 'line': 999},  # found issue (true positive)
 ]
 
 found_issues = [
     {'file': 'f1', 'line': 2, 'type': 'A', 'subtype': '2'},
     {'file': 'f2', 'line': 1, 'type': 'A', 'subtype': '3'},
+    {'file': 'three/dir/levels', 'line': 1, 'type': 'C', 'subtype': '1'},
     {'file': 'flast', 'line': 999, 'type': 'C', 'subtype': '1'},
 ]
 
@@ -122,9 +128,9 @@ class TestResultsByCategory(unittest.TestCase):
         assert results['B']['found'] == 0
         self.assertAlmostEqual(results['B']['detection_rate'], 0, places=3)
 
-        assert results['C']['expected'] == 2
-        assert results['C']['found'] == 1
-        self.assertAlmostEqual(results['C']['detection_rate'], 1/2, places=3)
+        assert results['C']['expected'] == 3
+        assert results['C']['found'] == 2
+        self.assertAlmostEqual(results['C']['detection_rate'], 2/3, places=3)
 
         assert results['X']['expected'] == 0
         assert results['X']['found'] == 0
