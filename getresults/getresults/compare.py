@@ -41,11 +41,23 @@ class Compare:
         return issues_found
 
     @property
-    def results_by_category(self) -> Dict[str, List[Dict[str, Any]]]:
+    def results_by_category(self) -> Dict[str, Dict[str, Any]]:
         """
         Return result stats by finding type.
 
         Returns: Dictionary mapping finding tpes to stats for that type. There is also a 'total' type with stats for
         all types.
         """
-        pass
+        results = {}
+        for defect_type in self.defect_types:
+            expected = sum(1 for issue in self._expected_benchmark.errors if issue['type'] == defect_type)
+            found = sum(1 for issue in self.issues_found if issue['type'] == defect_type)
+            results[defect_type] = {'expected': expected, 'found': found, 'detection_rate': self._detection_rate(
+                expected, found)}
+        return results
+
+    def _detection_rate(self, expected, found):
+        try:
+            return found / expected
+        except ZeroDivisionError:
+            return 1

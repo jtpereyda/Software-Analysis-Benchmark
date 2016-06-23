@@ -100,3 +100,40 @@ class TestFoundIssues(unittest.TestCase):
         for expected_issue in found_issues:
             assert any(actual_issue == expected_issue for actual_issue in c.issues_found), \
                 "expected_issue {0} not found in c.issues_found {1}".format(expected_issue, c.issues_found)
+
+
+class TestResultsByCategory(unittest.TestCase):
+    def setup_method(self, _):
+        self._sample = _benchmark_object_factory()
+
+    def test_results(self):
+        """
+        Given Sample data
+        When Calling Compare.results_by_category
+        Then Result contains expected result stats
+        """
+        c = compare.Compare(self._sample, sample_results)
+        results = c.results_by_category
+        assert results['A']['expected'] == 3
+        assert results['A']['found'] == 2
+        self.assertAlmostEqual(results['A']['detection_rate'], 2/3, places=3)
+
+        assert results['B']['expected'] == 1
+        assert results['B']['found'] == 0
+        self.assertAlmostEqual(results['B']['detection_rate'], 0, places=3)
+
+        assert results['C']['expected'] == 2
+        assert results['C']['found'] == 1
+        self.assertAlmostEqual(results['C']['detection_rate'], 1/2, places=3)
+
+        assert results['X']['expected'] == 0
+        assert results['X']['found'] == 0
+        self.assertAlmostEqual(results['X']['detection_rate'], 1, places=3)
+
+        assert results['Y']['expected'] == 0
+        assert results['Y']['found'] == 0
+        self.assertAlmostEqual(results['Y']['detection_rate'], 1, places=3)
+
+        assert results['Z']['expected'] == 0
+        assert results['Z']['found'] == 0
+        self.assertAlmostEqual(results['Z']['detection_rate'], 1, places=3)
