@@ -40,6 +40,7 @@ class Compare:
             for actual_issue in self._actual_results:
                 if self._match_filenames(actual_issue["file"], expected_issue["file"]) and actual_issue["line"] == expected_issue["line"]:
                     issues_found.append(expected_issue)
+                    break
         return issues_found
 
     def _match_filenames(self, l, r) -> bool:

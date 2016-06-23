@@ -59,6 +59,7 @@ sample_nonerrors = [
 sample_results = [
     {'file': 'f1', 'line': 2},  # found issue (true positive)
     {'file': 'f2', 'line': 1},  # found issue (true positive)
+    {'file': 'f2', 'line': 1},  # found another issue on the same line, should not count toward total
     {'file': 'g1', 'line': 1},  # found non-issue (false positive)
     {'file': 'f2', 'line': 2},  # found issue not in data set
     {'file': 'f3', 'line': 3},  # found issue not in data set
