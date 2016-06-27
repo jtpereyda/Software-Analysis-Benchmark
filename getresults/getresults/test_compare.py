@@ -185,9 +185,13 @@ class TestResultsByCategory(unittest.TestCase):
         self.assertAlmostEqual(results['Z']['detection_rate'], 1, places=3)
         self.assertAlmostEqual(results['Z']['false_positive_rate'], 0, places=3)
 
-        assert results['total']['expected'] == 7
-        assert results['total']['found'] == 4
+        assert results['total']['expected'] == len(sample_errors)
+        assert results['total']['found'] == len(found_issues)
         assert results['total']['expected_negatives'] == len(sample_nonerrors)
         assert results['total']['false_findings'] == len(false_findings)
-        self.assertAlmostEqual(results['total']['detection_rate'], 4/7, places=3)
-        self.assertAlmostEqual(results['total']['false_positive_rate'], len(false_findings)/len(sample_nonerrors), places=3)
+        self.assertAlmostEqual(results['total']['detection_rate'],
+                               len(found_issues)/len(sample_errors),
+                               places=3)
+        self.assertAlmostEqual(results['total']['false_positive_rate'],
+                               len(false_findings)/len(sample_nonerrors),
+                               places=3)

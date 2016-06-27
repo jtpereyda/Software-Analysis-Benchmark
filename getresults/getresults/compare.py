@@ -94,30 +94,26 @@ class Compare:
         """
         results = {}
         for defect_type in self.defect_types:
-            expected = sum(1 for issue in self._expected_benchmark.errors if issue['type'] == defect_type)
-            found = sum(1 for issue in self.issues_found if issue['type'] == defect_type)
-            expected_negatives = sum(1 for issue in self._expected_benchmark.nonerrors if issue['type'] == defect_type)
-            false_findings = sum(1 for issue in self.false_findings if issue['type'] == defect_type)
-            results[defect_type] = {'expected': expected,
-                                    'found': found,
-                                    'detection_rate': self._detection_rate(expected, found),
-                                    'expected_negatives': expected_negatives,
-                                    'false_findings': false_findings,
-                                    'false_positive_rate': self._false_positive_rate(expected_negatives, false_findings)
-                                    }
+            results[defect_type] = self._format_result(defect_type)
 
-        expected = len(self._expected_benchmark.errors)
-        found = len(self.issues_found)
-        expected_negatives = len(self._expected_benchmark.nonerrors)
-        false_findings = len(self.false_findings)
-        results['total'] = {'expected': expected,
-                            'found': found,
-                            'detection_rate': self._detection_rate(expected, found),
-                            'expected_negatives': expected_negatives,
-                            'false_findings': false_findings,
-                            'false_positive_rate': self._false_positive_rate(expected_negatives, false_findings)
-                            }
+        results['total'] = self._format_result('total')
         return results
+
+    def _format_result(self, defect_type):
+        expected = sum(1 for issue in self._expected_benchmark.errors if self._match_type(defect_type, issue['type']))
+        found = sum(1 for issue in self.issues_found if self._match_type(defect_type, issue['type']))
+        expected_negatives = sum(1 for issue in self._expected_benchmark.nonerrors if self._match_type(defect_type, issue['type']))
+        false_findings = sum(1 for issue in self.false_findings if self._match_type(defect_type, issue['type']))
+        return {'expected': expected,
+                'found': found,
+                'detection_rate': self._detection_rate(expected, found),
+                'expected_negatives': expected_negatives,
+                'false_findings': false_findings,
+                'false_positive_rate': self._false_positive_rate(expected_negatives, false_findings)
+                }
+
+    def _match_type(self, defect_type, category):
+        return defect_type == category or defect_type == 'total'
 
     def _detection_rate(self, expected, found):
         try:
