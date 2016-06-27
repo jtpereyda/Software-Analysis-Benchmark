@@ -29,9 +29,11 @@ def main(argv):
                 comparison.results_by_category[defect_type]['expected'],
                 comparison.results_by_category[defect_type]['found'],
                 comparison.results_by_category[defect_type]['detection_rate'],
-                sum(nonerror["type"] == defect_type for nonerror in expected.nonerrors)
+                comparison.results_by_category[defect_type]['expected_negatives'],
+                comparison.results_by_category[defect_type]['false_findings'],
+                comparison.results_by_category[defect_type]['false_positive_rate'],
             ) for defect_type in defect_types),
-            headers=('Defect Type', 'Defect Variations', 'SonarQube', 'SonarQube DR', 'No-Defect Variations')
+            headers=('Defect Type', 'Defect Variations', 'SonarQube', 'SonarQube DR', 'No-Defect Variations', 'False Positives', 'False Positive Rate')
         )
     )
 
