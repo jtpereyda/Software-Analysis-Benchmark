@@ -40,7 +40,8 @@ class Compare:
         issues_found = []
         for expected_issue in self._expected_benchmark.errors:
             for actual_issue in self._actual_results:
-                if self._match_filenames(actual_issue["file"], expected_issue["file"]) and actual_issue["line"] == expected_issue["line"]:
+                if self._match_filenames(actual_issue["file"], expected_issue["file"]) and actual_issue["line"] == \
+                        expected_issue["line"]:
                     issues_found.append(expected_issue)
                     break
         return issues_found
@@ -66,6 +67,24 @@ class Compare:
         return l_file == r_file and l_immediate_dir == r_immediate_dir
 
     @cached_property
+    def false_findings(self) -> List[Dict[str, Any]]:
+        """Return list of falsely identified issues...
+
+        Note: The system under evaluation may correctly identify other types of
+        issues on lines that are flagged as non-errors.
+
+        Returns: List of falsely identified issues.
+        """
+        false_findings = []
+        for expected_non_issue in self._expected_benchmark.nonerrors:
+            for actual_issue in self._actual_results:
+                if self._match_filenames(actual_issue["file"], expected_non_issue["file"]) \
+                        and actual_issue["line"] == expected_non_issue["line"]:
+                    false_findings.append(expected_non_issue)
+                    break
+        return false_findings
+
+    @cached_property
     def results_by_category(self) -> Dict[str, Dict[str, Any]]:
         """
         Return result stats by finding type.
@@ -77,13 +96,27 @@ class Compare:
         for defect_type in self.defect_types:
             expected = sum(1 for issue in self._expected_benchmark.errors if issue['type'] == defect_type)
             found = sum(1 for issue in self.issues_found if issue['type'] == defect_type)
-            results[defect_type] = {'expected': expected, 'found': found, 'detection_rate': self._detection_rate(
-                expected, found)}
+            expected_negatives = sum(1 for issue in self._expected_benchmark.nonerrors if issue['type'] == defect_type)
+            false_findings = sum(1 for issue in self.false_findings if issue['type'] == defect_type)
+            results[defect_type] = {'expected': expected,
+                                    'found': found,
+                                    'detection_rate': self._detection_rate(expected, found),
+                                    'expected_negatives': expected_negatives,
+                                    'false_findings': false_findings,
+                                    'false_positive_rate': self._false_positive_rate(expected_negatives, false_findings)
+                                    }
 
         expected = len(self._expected_benchmark.errors)
         found = len(self.issues_found)
-        results['total'] = {'expected': expected, 'found': found, 'detection_rate': self._detection_rate(
-            expected, found)}
+        expected_negatives = len(self._expected_benchmark.nonerrors)
+        false_findings = len(self.false_findings)
+        results['total'] = {'expected': expected,
+                            'found': found,
+                            'detection_rate': self._detection_rate(expected, found),
+                            'expected_negatives': expected_negatives,
+                            'false_findings': false_findings,
+                            'false_positive_rate': self._false_positive_rate(expected_negatives, false_findings)
+                            }
         return results
 
     def _detection_rate(self, expected, found):
@@ -91,3 +124,9 @@ class Compare:
             return found / expected
         except ZeroDivisionError:
             return 1
+
+    def _false_positive_rate(self, expected, found):
+        try:
+            return found / expected
+        except ZeroDivisionError:
+            return 0
