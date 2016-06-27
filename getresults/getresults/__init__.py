@@ -20,18 +20,17 @@ def main(argv):
 
     comparison = compare.Compare(expected, qube_results)
 
-    import pprint
-    pprint.pprint(comparison.results_by_category)
-
+    defect_types = comparison.defect_types
+    defect_types.add('total')
     print(
         tabulate.tabulate(
             ((
                 defect_type,
-                sum(error["type"] == defect_type for error in expected.errors),
+                comparison.results_by_category[defect_type]['expected'],
                 comparison.results_by_category[defect_type]['found'],
                 comparison.results_by_category[defect_type]['detection_rate'],
                 sum(nonerror["type"] == defect_type for nonerror in expected.nonerrors)
-            ) for defect_type in comparison.defect_types),
+            ) for defect_type in defect_types),
             headers=('Defect Type', 'Defect Variations', 'SonarQube', 'SonarQube DR', 'No-Defect Variations')
         )
     )

@@ -79,6 +79,11 @@ class Compare:
             found = sum(1 for issue in self.issues_found if issue['type'] == defect_type)
             results[defect_type] = {'expected': expected, 'found': found, 'detection_rate': self._detection_rate(
                 expected, found)}
+
+        expected = len(self._expected_benchmark.errors)
+        found = len(self.issues_found)
+        results['total'] = {'expected': expected, 'found': found, 'detection_rate': self._detection_rate(
+            expected, found)}
         return results
 
     def _detection_rate(self, expected, found):

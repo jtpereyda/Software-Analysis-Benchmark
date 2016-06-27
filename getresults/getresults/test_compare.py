@@ -144,3 +144,7 @@ class TestResultsByCategory(unittest.TestCase):
         assert results['Z']['expected'] == 0
         assert results['Z']['found'] == 0
         self.assertAlmostEqual(results['Z']['detection_rate'], 1, places=3)
+
+        assert results['total']['expected'] == 7
+        assert results['total']['found'] == 4
+        self.assertAlmostEqual(results['total']['detection_rate'], 4/7, places=3)
